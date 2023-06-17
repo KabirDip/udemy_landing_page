@@ -1,32 +1,63 @@
-.App {
-  text-align: center;
+.nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bgc{
+  background-color: red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cardCourseS{
+  height: 300px;
+  width: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.courseReview{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
+
+.instructorName{
+  font-size: 15px;
+}
+
+.cardPic{
+  height: 100px;
+  width: auto;  
+}
+
+.borderr{
+  border: red, 5px, solid;
+}
+
+.img{
+  background-color: greenyellow;
+  height: 50px; width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
